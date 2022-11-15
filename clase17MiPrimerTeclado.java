@@ -1,5 +1,5 @@
 //importacion de bibliotecas
-import java.util.*;
+import java.util.Scanner;
 
 //practico de clases objetos y metodos
 //objeto escaner, sirve para ingreso por teclado
@@ -39,6 +39,7 @@ public class clase17MiPrimerTeclado {
         System.out.println("Ingrese su 2do numero decimal expresado con COMA");
         numero2 = miTeclado.nextDouble();
         
+        miTeclado.close();//cierro teclado de memoria
         //se muestran las operaciones que se realizan
         System.out.println("Su nombre es: "+nombre);
         System.out.println("Los numero enteros que ingreso son: "+numeroEntero1+" y "+numeroEntero2);

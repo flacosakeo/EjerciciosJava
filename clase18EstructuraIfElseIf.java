@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.Scanner;
 
 public class clase18EstructuraIfElseIf {
     public static void main(String[] args) {
@@ -22,13 +22,13 @@ public class clase18EstructuraIfElseIf {
 
         //estructura If Else If
         if (nota==10){
-            System.out.println("alumno cuadro de honor");
+            System.out.println(alumno+" cuadro de honor");
         }else if(nota>=6 && nota<10){
-            System.out.println("alumno regular");
+            System.out.println(alumno+"alumno regular");
         }else if(nota>=1 && nota<6){
-            System.out.println("alumno en proceso");
+            System.out.println(alumno+"alumno en proceso");
         }else if(nota==0){
-            System.out.println("alumno debe recursar");
+            System.out.println(alumno+"alumno debe recursar");
         }else{
             System.out.println("indroduzca una nota valida");
         }

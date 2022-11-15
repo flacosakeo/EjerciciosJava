@@ -1,4 +1,4 @@
-import java.net.SocketTimeoutException;
+
 
 public class clase10doWhile {
     public static void main(String[] args) {

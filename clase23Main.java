@@ -11,5 +11,12 @@ public class clase23Main {
         //perimetro de un circulo
         clase23FuncionesConReturnImprimir.mensaje("Perimetro Circulo: ");
         clase23FuncionesConReturnImprimir.mensaje(clase23FuncionesConReturnPerimetro.circulo(1));
+
+        clase23FuncionesConReturnImprimir.mensaje("cilindro: ");
+        clase23FuncionesConReturnImprimir.mensaje(clase23FuncionesConReturnSuperficies.cilindro(1, 10));
+
+        //redondear decimal
+        double redondeo = Math.round(clase23FuncionesConReturnSuperficies.cilindro(1,10)*100);
+        clase23FuncionesConReturnImprimir.mensaje(redondeo/100);
     }
 }

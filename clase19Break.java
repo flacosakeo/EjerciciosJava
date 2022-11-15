@@ -8,12 +8,13 @@ public class clase19Break {
         //Bucle for
         for (int i = 1; i<=3; i++){
 
-            if(pass == passControl)
+            if(pass == passControl){
                 System.out.println("\nConstraseña correcta\n");
-            System.out.println("Intentos: "+i);
-            intento ++;
-            break;//interrumpe el ciclo for y sale antes de cumplir el limite permitido
+                System.out.println("Intentos: "+i);
+                intento ++;
+                break;//interrumpe el ciclo for y sale antes de cumplir el limite permitido
             //continue;//hace continuar el ciclo hasta cumplir el limite aunque se cumpla la condicion
+            }
         }
 
         System.out.println("Intentos totales: "+intento);
